@@ -4,8 +4,23 @@
     <groupId>com.zlp</groupId>
     <artifactId>zhoulp-master</artifactId>
     <version>0.0.1</version>
+    <relativePath>../zhoulp-master</relativePath>
   </parent>
   <artifactId>module-base-log</artifactId>
   <name>log run info</name>
   <description>记录日记</description>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>com.zlp</groupId>
+  		<artifactId>module-base-util</artifactId>
+  	</dependency>
+  	
+  	<dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <scope>test</scope>
+    </dependency>
+  	
+  </dependencies>
 </project>
