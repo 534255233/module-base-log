@@ -61,11 +61,11 @@ public class LoggerFactory {
 		
 		int limit = 0;
 		if(rb.getString("log.custom.limit") != null) {
-			limit = Integer.parseInt(rb.getString("log.custom.limit").toString());
+			limit = Integer.parseInt(rb.getString("log.custom.limit"));
 		}
 		int count = 1;
 		if(rb.getString("log.custom.count") != null) {
-			count = Integer.parseInt(rb.getString("log.custom.count").toString());
+			count = Integer.parseInt(rb.getString("log.custom.count"));
 		}
 		boolean append = true;
 		if(rb.getString("log.custom.append") != null) {
